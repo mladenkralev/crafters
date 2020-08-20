@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: hops-info-service
+  data:
+    mongodb:
+      uri: mongodb+srv://home:brew@homebrew.giq7q.gcp.mongodb.net/<dbname>?retryWrites=true&w=majority
+      database: photos
+  servlet:
+    multipart:
+      max-file-size: 256MB
+      max-request-size: 256MB
+      enabled: true
+server:
+  port: 8087

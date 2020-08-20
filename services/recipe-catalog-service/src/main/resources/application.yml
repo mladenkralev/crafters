@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: recipe-catalog-service
+  cloud:
+    config:
+      uri: configuration-server
+
+server:
+  port: 8083

@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: yeast-info-service
+  data:
+    mongodb:
+      uri: mongodb+srv://home:brew@homebrew.giq7q.gcp.mongodb.net/<dbname>?retryWrites=true&w=majority
+      database: yeasts
+server:
+  port: 8085
+

@@ -1,0 +1,15 @@
+rootProject.name = 'crafters'
+
+include 'services'
+include 'services:discovery-server'
+include 'services:configuration-server'
+
+include 'services:recipe-catalog-service'
+include 'services:recipe-info-service'
+include 'services:hops-info-service'
+include 'services:fermentables-info-service'
+include 'services:yeast-info-service'
+include 'services:posts-info-service'
+include 'services:picture-service'
+
+include 'services:front-end'

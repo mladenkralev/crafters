@@ -1,0 +1,12 @@
+server:
+  port: 8888
+
+# spring cloud config repo settings.
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: git@github.com:mladenkralev/microservices-configuration-sample.git
+          ignoreLocalSshSettings: false
+          strictHostKeyChecking: false

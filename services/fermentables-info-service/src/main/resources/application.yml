@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: fermentables-info-service
+
+server:
+  port: 8081
